@@ -17,7 +17,7 @@ Screenshot from low poly version of matches video
 ## Train going over bridge video
 Screenshot from low poly version of trains video
 
-<img src = "/demo/trains_lowpoly_screenshot.png" width = "600"
+<img src = "/demo/trains_lowpoly_screenshot.png" width = "600">
 
 ## Samples in demo folder
 
