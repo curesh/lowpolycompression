@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from scipy.spatial import Delaunay
 
 class PolyImg:
-    
+
   def __init__(self, image, blur, rate, node_factor = 1):
     self.blur = blur
     self.node_factor = node_factor
@@ -82,8 +82,7 @@ class PolyImg:
     for triangle in triangles.simplices:
       triangle_coords = np.array([ [nodes[triangle[i]][1], nodes[triangle[i]][0]] for i in range(3)])
       cv.polylines(img_triangles,[triangle_coords], True, (0,255,1))
-      #rgb = []
-
+      
       # Color of triangle is based on average color values of selected coords/
       # /in original image
       centroid = np.sum(triangle_coords,axis = 0)//3 - 1
