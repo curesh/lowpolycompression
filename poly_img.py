@@ -3,11 +3,17 @@ import numpy as np
 from scipy import signal
 from matplotlib import pyplot as plt
 from scipy.spatial import Delaunay
+import sys
 
 class PolyImg:
 
+  # A LOWER node factor results in more triangles
+  # node_factor should always be positive
   def __init__(self, image, blur, rate, node_factor = 1):
     self.blur = blur
+    if node_factor <= 0
+      print("Error: The node_factor is less than or equal to 0.")
+      sys.exit()
     self.node_factor = node_factor
     self.rate = rate
     self.orig = image
@@ -82,7 +88,7 @@ class PolyImg:
     for triangle in triangles.simplices:
       triangle_coords = np.array([ [nodes[triangle[i]][1], nodes[triangle[i]][0]] for i in range(3)])
       cv.polylines(img_triangles,[triangle_coords], True, (0,255,1))
-      
+
       # Color of triangle is based on average color values of selected coords/
       # /in original image
       centroid = np.sum(triangle_coords,axis = 0)//3 - 1
