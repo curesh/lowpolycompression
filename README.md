@@ -4,8 +4,8 @@ This is an investigative work that sees if converting all the frames in a video 
 ## Samples
 
 ### "The Great Wave off Kanagawa" by Hokusai
-
-<img src = "/demo/waves.jpg>
+<br/>
+<img src="/demo/waves.jpg" width = "250">
 
 ## How to use
 
