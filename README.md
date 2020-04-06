@@ -3,7 +3,7 @@ This is an investigative work that sees if converting all the frames in a video 
 
 # How to use
 
-Clone git repository
+1. Clone git repository
 
 ## Install relavent libraries
 `pip3 install -r requirements.txt`
