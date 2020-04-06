@@ -51,7 +51,7 @@ If you want to increase the number of nodes (triangles) in the frame, in the gen
 
 ## TODO
 
-1. Implement a compression algorithm that utilizes the videos polygon composition to optimize video storage and program runtime.
+1. Improve compression algorithm and utilize the videos polygon composition to optimize video storage and program runtime.
 
 2. Run various tests to measure utility.
 
