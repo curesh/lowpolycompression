@@ -9,8 +9,29 @@ This is an investigative work that sees if converting all the frames in a video 
 ### Low Poly Compression of "The Great Wave off Kanagawa" (1191 Nodes)
 <img src = "/demo/lowpolywaves.jpg" width = "600">
 
-### Matches
+### Burning match video
+Screenshot from low poly version of matches video
 
+<img src = "/demo/match_lowpoly_screenshot.png" width = "600">
+
+## Train going over bridge video
+Screenshot from low poly version of trains video
+
+<img src = "/demo/trains_lowpoly_screenshot.png" width = "600">
+
+## Samples in demo folder
+
+Please download the sample videos in the demo folder to see the low poly compression of various media.
+
+They look pretty cool, so you should check it out!
+
+### Sample videos
+1. Waves scene from interstellar
+2. A burning match
+3. A train going over a bridge
+### Sample images
+4. Great Waves off Kanagawa
+5. Soccer ball
 
 ## How to use
 
@@ -26,4 +47,10 @@ Run the following command on terminal, in the same folder as the python scripts
   
 ## Notes
 
-If you want to increase the number of nodes (triangles) in the frame
+If you want to increase the number of nodes (triangles) in the frame, in the gen_vid.py file, in lines 15, 34 decrease the node_factor to a value between 0 and 1. If you want to decrease the number of nodes, increase the node factor. (The default is 1.)
+
+## TODO
+
+1. Implement a compression algorithm that utilizes the videos polygon composition to optimize video storage and program runtime.
+
+2. Run various tests to measure utility.
