@@ -55,7 +55,7 @@ If you want to increase the number of nodes (triangles) in the frame, in the gen
 
 2. Run various tests to measure utility.
 
-### Credit
+## Credit
 Loosely adapted and improved upon some algorithms from:
 
 Qian, Crystal J. Generating Low-Poly Abstractions. Princeton University, 2016.
