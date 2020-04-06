@@ -12,12 +12,12 @@ This is an investigative work that sees if converting all the frames in a video 
 ### Burning match video
 Screenshot from low poly version of matches video
 
-<img src = "/demo/match_lowpoly_screenshot.jpg" width = "600">
+<img src = "/demo/match_lowpoly_screenshot.png" width = "600">
 
 ## Train going over bridge video
 Screenshot from low poly version of trains video
 
-<img src = "/demo/trains_lowpoly_screenshot.jpg width = "600"
+<img src = "/demo/trains_lowpoly_screenshot.png" width = "600"
 
 ## Samples in demo folder
 
