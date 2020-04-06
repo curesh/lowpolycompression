@@ -1,7 +1,6 @@
 import sys
 from poly_img import PolyImg
 import cv2 as cv
-import glob
 import time
 import filetype
 import numpy as np
@@ -10,11 +9,15 @@ start_time = time.time()
 arg_type = str(filetype.guess(sys.argv[1]))
 if arg_type.find('image')+1:
   image = cv.imread(sys.argv[1])
+
+  # Optionally include node_factor as a param to increase or decrease number of img_triangles
+  # Higher node_factor means more triangles (Default: 1)
   img = PolyImg(image, blur=4, rate=0.8)
   poly_img_real, max_nodes = img.plot_nodes(False)
   print("Max-nodes: ", max_nodes)
   # cv.imwrite(('poly_img_' + str(sys.argv[1])[0:-4] + '.jpg'), np.float32(poly_img_real))
   cv.imwrite(('poly_img_sample.jpg'), np.float32(poly_img_real))
+
 elif arg_type.find('video')+1:
   img_array = []
   vidcap = cv.VideoCapture(sys.argv[1])
@@ -25,6 +28,9 @@ elif arg_type.find('video')+1:
   while success:
     height, width, layers = image.shape
     size = (width,height)
+
+    # Optionally include node_factor as a param to increase or decrease number of img_triangles
+    # Higher node_factor means more triangles (Default: 1)
     image = PolyImg(image, blur = 4, rate = 0.8)
     poly_image, max_nodes = image.plot_nodes(False)
     img_array.append(poly_image)
