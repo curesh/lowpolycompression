@@ -9,8 +9,28 @@ This is an investigative work that sees if converting all the frames in a video 
 ### Low Poly Compression of "The Great Wave off Kanagawa" (1191 Nodes)
 <img src = "/demo/lowpolywaves.jpg" width = "600">
 
-### Matches
+### Burning match video
+Screenshot from low poly version of matches video
 
+<img src = "/demo/match_lowpoly_screenshot.jpg" width = "600">
+
+## Train going over bridge video
+Screenshot from low poly version of trains video
+
+<img src = "/demo/trains_lowpoly_screenshot.jpg width = "600"
+
+## Samples in demo folder
+
+Please download the sample videos in the demo folder to see the low poly compression of various media
+They look pretty cool, so you should check it out!
+
+### Sample videos
+1. Waves scene from interstellar
+2. A burning match
+3. A train going over a bridge
+### Sample images
+4. Great Waves off Kanagawa
+5. Soccer ball
 
 ## How to use
 
