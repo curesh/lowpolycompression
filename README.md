@@ -5,7 +5,7 @@ This is an investigative work that sees if converting all the frames in a video 
 
 ### "The Great Wave off Kanagawa" by Hokusai
 <br/>
-<img src="/demo/waves.jpg" width = "250">
+<img src="/demo/waves.jpg" width = "500">
 
 ## How to use
 
