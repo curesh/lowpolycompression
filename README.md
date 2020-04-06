@@ -21,7 +21,8 @@ Screenshot from low poly version of trains video
 
 ## Samples in demo folder
 
-Please download the sample videos in the demo folder to see the low poly compression of various media
+Please download the sample videos in the demo folder to see the low poly compression of various media.
+
 They look pretty cool, so you should check it out!
 
 ### Sample videos
@@ -46,7 +47,7 @@ Run the following command on terminal, in the same folder as the python scripts
   
 ## Notes
 
-If you want to increase the number of nodes (triangles) in the frame
+If you want to increase the number of nodes (triangles) in the frame, in the gen_vid.py file, in lines 15, 34 decrease the node_factor to a value between 0 and 1. If you want to decrease the number of nodes, increase the node factor. (The default is 1.)
 
 ## TODO
 
