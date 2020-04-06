@@ -54,3 +54,8 @@ If you want to increase the number of nodes (triangles) in the frame, in the gen
 1. Implement a compression algorithm that utilizes the videos polygon composition to optimize video storage and program runtime.
 
 2. Run various tests to measure utility.
+
+### Credit
+Loosely adapted some algorithms from:
+
+Qian, Crystal J. Generating Low-Poly Abstractions. Princeton University, 2016.
