@@ -47,3 +47,9 @@ Run the following command on terminal, in the same folder as the python scripts
 ## Notes
 
 If you want to increase the number of nodes (triangles) in the frame
+
+## TODO
+
+1. Implement a compression algorithm that utilizes the videos polygon composition to optimize video storage and program runtime.
+
+2. Run various tests to measure utility.
