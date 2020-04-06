@@ -4,8 +4,10 @@ This is an investigative work that sees if converting all the frames in a video 
 ## Samples
 
 ### "The Great Wave off Kanagawa" by Hokusai
-<br/>
-<img src="/demo/waves.jpg" width = "500">
+<img src="/demo/waves.jpg" width = "600">
+
+### Low Poly Compression of "The Great Wave off Kanagawa"
+<img src = "/demo/lowpolywaves.jpg" width = "600">
 
 ## How to use
 
