@@ -6,7 +6,7 @@ This is an investigative work that sees if converting all the frames in a video 
 ### "The Great Wave off Kanagawa" by Hokusai
 <img src="/demo/waves.jpg" width = "600">
 
-### Low Poly Compression of "The Great Wave off Kanagawa"
+### Low Poly Compression of "The Great Wave off Kanagawa" (1191 Nodes)
 <img src = "/demo/lowpolywaves.jpg" width = "600">
 
 ## How to use
