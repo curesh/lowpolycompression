@@ -42,7 +42,8 @@ They look pretty cool, so you should check it out!
 
 ### Converting media to poly art
 
-Run the following command on terminal, in the same folder as the python scripts
+Run the following command on terminal, in the same folder as the python scripts:
+
   `python3 gen_vid.py [INSERT_IMAGE_OR_VIDEO_FILE_HERE]`
   
 ## Notes
